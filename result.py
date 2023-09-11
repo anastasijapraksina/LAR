@@ -4,6 +4,8 @@ def main():
     tip = dollars * percent
     print(f"Leave ${tip:.2f}")
 
+    
+
 def dollars_to_float(d):  
     t = d.strip()
     t1 = t.replace("$"," ")
